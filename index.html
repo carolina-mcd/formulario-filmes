@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Formulário de filmes</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <form action="">
+
+      <h1>Formulário de Filmes</h1>
+
+      <div class="teste">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text">
+      </div>
+
+      <div>
+        <label for="sobrenome">Sobrenome</label>
+        <input id="sobrenome" type="text">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="text">
+      </div>
+
+      <div class="caixa2">
+        <p>Gênero:</p>
+        <input type="radio" id="feminino" name="feminino" value="f">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="masculino" name="masculino" value="m">
+        <label for="masculino">Masculino</label>
+
+
+      </div>
+
+      <div class="caixa">
+        <P>
+          Você se considera amante de filmes?
+          <select name="devices">
+            <option value="sim">Sim</option>
+            <option value="não">Não</option>
+          </select>
+        </P>  
+      </div>
+
+            
+      <div>
+        <p>
+          Selecione: <br>
+
+          <input type="checkbox" name="terror" value="terror"/> Terror
+          <input type="checkbox" name="suspense" value="suspense"/> Suspense
+          <input type="checkbox" name="romance" value="romance"/> Romance
+          <input type="checkbox" name="ficção" value="ficção"/> Ficção
+          <input type="checkbox" name="comédia" value="comédia"/> Comédia
+        </p>
+      </div>
+
+      <div>
+        <p>Conte nos sobre seus filmes preferidos: <br>
+          <textarea name="comente" cols="40" rows="10"></textarea>
+        
+        </p>
+      </div>
+
+      <input id="botao" type="button" value="Enviar">
+
+    </form>
+  </div>
+
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
